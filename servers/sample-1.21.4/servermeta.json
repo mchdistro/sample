@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/sample/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "sample (Minecraft 1.21.4)",
+    "description": "sample Running Minecraft 1.21.4 (Fabric v0.16.9)",
+    "icon": "https://github.com/mchdistro/sample/raw/main/server-icon.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "fabric": {
+    "version": "0.16.9"
+  },
+  "untrackedFiles": []
+}
