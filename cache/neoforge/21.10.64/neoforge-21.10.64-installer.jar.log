@@ -1,11 +1,11 @@
 JVM info: Oracle Corporation - 21.0.2 - 21.0.2+13-LTS-58
 java.net.preferIPv4Stack=true
-Current Time: 06/12/2025 14:19:52
-Host: maven.neoforged.net [95.173.204.25, 95.173.204.18, 178.249.213.2, 178.249.213.26, 95.173.204.22, 95.173.204.16]
+Current Time: 07/12/2025 03:44:42
+Host: maven.neoforged.net [178.249.213.2, 95.173.204.24, 95.173.204.22, 95.173.204.15, 178.249.213.26, 95.173.204.18]
 Host: libraries.minecraft.net [13.107.246.74, 13.107.213.74]
 Host: launchermeta.mojang.com [13.107.246.74, 13.107.213.74]
-Host: piston-meta.mojang.com [13.107.213.74, 13.107.246.74]
-Host: sessionserver.mojang.com [13.107.213.74, 13.107.246.74]
+Host: piston-meta.mojang.com [13.107.246.74, 13.107.213.74]
+Host: sessionserver.mojang.com [13.107.246.74, 13.107.213.74]
 Found java version 21.0.2
 Following redirect: https://neoforged.net/mirrorlist.json
 Extracting json
@@ -165,7 +165,7 @@ Downloading library from https://maven.neoforged.net/releases/net/neoforged/inst
 Considering library net.neoforged:neoforge:21.10.64:universal
 Downloading library from https://maven.neoforged.net/releases/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-universal.jar
 	Download completed: Checksum validated.
-Created Temporary Directory: C:\Users\gotiger\AppData\Local\Temp\neoforge_installer3730730694599262864
+Created Temporary Directory: C:\Users\gotiger\AppData\Local\Temp\neoforge_installer10803240700988236440
   Extracting: /data/client.lzma
 Building Processors
 ===============================================================================
@@ -186,22 +186,22 @@ Processor: net.neoforged.installertools:installertools -> PROCESS_MINECRAFT_JAR
   Classpath:
     D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\installertools\installertools\4.0.6\installertools-4.0.6-fatjar.jar
     D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\installertools\installertools\4.0.6\installertools-4.0.6-fatjar.jar
-  Args: --task, PROCESS_MINECRAFT_JAR, --input, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\versions\1.21.10\1.21.10.jar, --input-mappings, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\minecraft\client\1.21.10\client-1.21.10-mappings.txt, --output, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\minecraft-client-patched\21.10.64\minecraft-client-patched-21.10.64.jar, --extract-libraries-to, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64/libraries/, --neoform-data, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\neoform\1.21.10-20251010.172816\neoform-1.21.10-20251010.172816-mappings.tsrg.lzma, --apply-patches, C:\Users\gotiger\AppData\Local\Temp\neoforge_installer3730730694599262864\data\client.lzma
+  Args: --task, PROCESS_MINECRAFT_JAR, --input, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\versions\1.21.10\1.21.10.jar, --input-mappings, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\minecraft\client\1.21.10\client-1.21.10-mappings.txt, --output, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\minecraft-client-patched\21.10.64\minecraft-client-patched-21.10.64.jar, --extract-libraries-to, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64/libraries/, --neoform-data, D:\Coding\Projects\mchlauncher\Distro\sample\cache\neoforge\21.10.64\libraries\net\neoforged\neoform\1.21.10-20251010.172816\neoform-1.21.10-20251010.172816-mappings.tsrg.lzma, --apply-patches, C:\Users\gotiger\AppData\Local\Temp\neoforge_installer10803240700988236440\data\client.lzma
 Task: PROCESS_MINECRAFT_JAR
-load parameter mappings [518ms]
-load patch bundle [632ms]
-load input zip [689ms]
-load mappings [801ms]
-merge mappings [208ms]
+load parameter mappings [602ms]
+load patch bundle [711ms]
+load input zip [849ms]
+load mappings [1047ms]
+merge mappings [184ms]
 Adding Libraries to Inheritance
 Processor: net.neoforged.installertools:installertools -> PROCESS_MINECRAFT_JAR: Processing entries
 Adding input to inheritance map
 Processing 27645 entries
 Adding extras
 Sorting
-deobfuscate jar [1830ms]
-applying patches [183ms]
-write output file [1411ms]
-overall work [4455ms]
+deobfuscate jar [2114ms]
+applying patches [182ms]
+write output file [1541ms]
+overall work [5083ms]
 Injecting profile
 Finished!
