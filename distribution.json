@@ -435,6 +435,82 @@
       ]
     },
     {
+      "id": "sample-1.21.10",
+      "name": "sample (Minecraft 1.21.10)",
+      "description": "Minecraft 1.21.10 (NeoForge v21.10.64)",
+      "icon": "https://github.com/mchdistro/레포/raw/main/server-icon.png",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.10",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "javaOptions": {
+        "supported": "=>21",
+        "suggestedMajor": 21,
+        "platformOptions": [
+          {
+            "platform": "win32",
+            "architecture": "x64",
+            "distribution": "TEMURIN"
+          }
+        ],
+        "ram": {
+          "minimum": 4096,
+          "recommended": 8192
+        }
+      },
+      "modules": [
+        {
+          "id": "net.neoforged:neoforge:21.10.64:universal",
+          "name": "NeoForge (neoforge jar)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 3805764,
+            "MD5": "07a5720db91b6dd253800505c8109c5c",
+            "url": "https://github.com/mchdistro/sample/raw/main/repo/lib/net/neoforged/neoforge/21.10.64/neoforge-21.10.64-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.10-21.10.64",
+              "name": "NeoForge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 44432,
+                "MD5": "79c890867afc59219de7279b34ec1713",
+                "url": "https://github.com/mchdistro/sample/raw/main/repo/versions/1.21.10-neoforge-21.10.64/1.21.10-neoforge-21.10.64.json"
+              }
+            },
+            {
+              "id": "org.lwjgl:lwjgl-tinyfd:3.3.3",
+              "name": "NeoForge (lwjgl-tinyfd)",
+              "type": "Library",
+              "artifact": {
+                "size": 13400,
+                "MD5": "c687eaba9debbc609df72ab45f4e1164",
+                "url": "https://github.com/mchdistro/sample/raw/main/repo/lib/org/lwjgl/lwjgl-tinyfd/3.3.3/lwjgl-tinyfd-3.3.3.jar"
+              }
+            },
+            {
+              "id": "org.lwjgl:lwjgl:3.3.3",
+              "name": "NeoForge (lwjgl)",
+              "type": "Library",
+              "artifact": {
+                "size": 785029,
+                "MD5": "d89fce0be944d8cffd1f82c6546509bf",
+                "url": "https://github.com/mchdistro/sample/raw/main/repo/lib/org/lwjgl/lwjgl/3.3.3/lwjgl-3.3.3.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "sample-1.21.4",
       "name": "sample (Minecraft 1.21.4)",
       "description": "sample Running Minecraft 1.21.4 (Fabric v0.16.9)",

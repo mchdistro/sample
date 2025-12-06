@@ -1,0 +1,45 @@
+{
+  "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/sample/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "sample (Minecraft 1.21.10)",
+    "description": "Minecraft 1.21.10 (NeoForge v21.10.64)",
+    "icon": "https://github.com/mchdistro/레포/raw/main/server-icon.png",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false,
+    "javaOptions": {
+      "supported": "=>21",
+      "suggestedMajor": 21,
+      "platformOptions": [
+        {
+          "platform": "win32",
+          "architecture": "x64",
+          "distribution": "TEMURIN"
+        }
+      ],
+      "ram": {
+        "minimum": 4096,
+        "recommended": 8192
+      }
+    }
+  },
+  "neoforge": {
+    "version": "21.10.64"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": [
+        "files"
+      ],
+      "patterns": [
+        "options.txt"
+      ]
+    }
+  ]
+}
